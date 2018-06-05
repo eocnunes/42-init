@@ -1,0 +1,8 @@
+md5sum /etc/crontab > cron.txt
+if ! diff -q checksum.txt cron.txt &>/dev/null
+then
+	>&2 echo "changes" | mail -s "crontab modified" root
+fi
+md5sum /etc/crontab > checksum.tx
+
+# 0 0 * * * sh ~/init/scripts/04

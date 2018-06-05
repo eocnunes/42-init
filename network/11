@@ -1,0 +1,4 @@
+(traceroute 42.fr | grep nat)
+ 3  nat (10.90.1.11)  0.205 ms  0.225 ms  0.194 ms
+
+ NAT stands for Network Address Translation, the process where a device assigns a public address to a computer inside a private network.

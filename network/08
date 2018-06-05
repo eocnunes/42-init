@@ -1,0 +1,47 @@
+(nslookup slash16.org)
+Server:		10.51.1.253
+Address:	10.51.1.253#53
+
+Non-authoritative answer:
+Name:	slash16.org
+Address: 52.84.245.246
+Name:	slash16.org
+Address: 52.84.245.21
+Name:	slash16.org
+Address: 52.84.245.84
+Name:	slash16.org
+Address: 52.84.245.120
+Name:	slash16.org
+Address: 52.84.245.134
+Name:	slash16.org
+Address: 52.84.245.159
+Name:	slash16.org
+Address: 52.84.245.74
+Name:	slash16.org
+Address: 52.84.245.70
+
+
+(nslookup slash16.org 8.8.8.8)
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	slash16.org
+Address: 52.84.245.246
+Name:	slash16.org
+Address: 52.84.245.134
+Name:	slash16.org
+Address: 52.84.245.159
+Name:	slash16.org
+Address: 52.84.245.70
+Name:	slash16.org
+Address: 52.84.245.120
+Name:	slash16.org
+Address: 52.84.245.74
+Name:	slash16.org
+Address: 52.84.245.84
+Name:	slash16.org
+Address: 52.84.245.21
+
+
+The addresses are the same.
